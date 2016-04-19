@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension
+	type="module"
+	version="3.1"
+	client="site"
+	method="upgrade">
+	<name>Skype Module</name>
+	<author>R2H</author>
+	<creationDate>July 2013</creationDate>
+	<copyright>Copyright (C) 2005 - 2013 R2H B.V.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>rick@r2h.nl</authorEmail>
+	<authorUrl>www.r2h.nl</authorUrl>
+	<version>1.0.2</version>
+	<description>Create Skype Call to/Chat link</description>
+	<files>
+		<filename module="mod_skype">mod_skype.php</filename>
+		<filename>index.html</filename>
+		<folder>tmpl</folder>
+	</files>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field
+					name="skypetype"
+					type="list"
+					default="Call"
+					label="Select Type"
+					description="Select Skype link type">
+					<option
+						value="Call">Call To</option>
+					<option
+						value="Chat">Chat</option>
+					<option
+						value="CallChat">Call to/Chat Pulldown</option>
+				</field>
+                <field
+					name="skypesize"
+					type="list"
+					default="32"
+					label="Select size"
+					description="Select Skype button size">
+					<option
+						value="32">32px</option>
+					<option
+						value="24">24px</option>
+					<option
+						value="16">16px</option>
+                    <option
+						value="14">14px</option>
+                    <option
+						value="12">12px</option>
+                    <option
+						value="10">10px</option>
+				</field>
+                <field
+					name="skypename"
+					type="text"
+					default=""
+					label="Skype Name"
+					description="Skype Name" />
+			     <field name="skypetext" type="textarea" cols="15" rows="5" label="Text before Skype icon" description="Text before Skype icon" />
+            </fieldset>
+			<fieldset
+				name="advanced">
+				<field
+					name="layout"
+					type="modulelayout"
+					label="JFIELD_ALT_LAYOUT_LABEL"
+					description="JFIELD_ALT_MODULE_LAYOUT_DESC" />
+
+				<field
+					name="moduleclass_sfx"
+					type="textarea" rows="3"
+					label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL"
+					description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC" />
+
+				<field
+					name="cache"
+					type="list"
+					default="1"
+					label="COM_MODULES_FIELD_CACHING_LABEL"
+					description="COM_MODULES_FIELD_CACHING_DESC">
+					<option
+						value="1">JGLOBAL_USE_GLOBAL</option>
+					<option
+						value="0">COM_MODULES_FIELD_VALUE_NOCACHING</option>
+				</field>
+			</fieldset>
+		</fields>
+	</config>
+</extension>

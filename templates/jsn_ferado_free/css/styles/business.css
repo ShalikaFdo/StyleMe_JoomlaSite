@@ -1,0 +1,26 @@
+/**
+* @author    JoomlaShine.com http://www.joomlashine.com
+* @copyright Copyright (C) 2008 - 2011 JoomlaShine.com. All rights reserved.
+* @license   JoomlaShine.com Proprietary License
+*/
+@import url(http://fonts.googleapis.com/css?family=Lato:400);
+body {
+	font-family: 'Lato',sans-serif;
+	font-size: 13px;
+	font-weight: 300;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+#jsn-menu a,
+#jsn-menu span,
+.componentheading,
+.contentheading {
+	font-family: 'Lato',sans-serif;
+}
+#jsn-menu ul.menu-mainmenu > li > a span.jsn-menutitle{
+	color: #fff;
+}

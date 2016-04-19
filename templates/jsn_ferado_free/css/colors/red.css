@@ -1,0 +1,163 @@
+/**
+* @author    JoomlaShine.com http://www.joomlashine.com
+* @copyright Copyright (C) 2008 - 2011 JoomlaShine.com. All rights reserved.
+* @license   JoomlaShine.com Proprietary License
+*/
+/* ============================== DEFAULT HTML ============================== */
+*::-moz-selection {
+	color: #FFF;
+	text-shadow: none;
+	background: none repeat scroll 0% 0% #f45245;
+}
+a {
+	color: #f45245;
+}
+a:hover,
+a:active,
+a:focus {
+	color: #f45245;
+}
+/* =============== LAYOUT - HEADER AREA =============== */
+#jsn-header {
+	background: #f45245;
+}
+/* ============================== LAYOUT ============================== */
+/* =============== LAYOUT - OVERALL PAGE =============== */
+/* =============== MENU - MAIN MENU =============== */
+div.jsn-modulecontainer ul.menu-mainmenu li:hover > a,
+div.jsn-modulecontainer ul.menu-mainmenu li.active > a {
+	color: #f45245;
+}
+/* =============== MODULE - POSITION TOOLBAR =============== */
+#jsn-menu .jsn-modulecontainer.display-dropdown:hover h3.jsn-moduletitle span {
+	background-color: #D02F20;
+}
+#jsn-menu .jsn-modulecontainer.display-dropdown.search-menu button.btn {
+	background: #f45245;
+}
+/* =============== SITETOOL =============== */
+/* ============================== TYPOGRAPHY ============================== */
+/* =============== TYPOGRAPHY - LINK STYLES =============== */
+/* ----- ACTION LINK ----- */
+#jsn-page .link-action {
+	color: #f45245;
+	text-transform: uppercase;
+}
+#jsn-page .link-action:hover {
+	background-color: #f45245;
+}
+/* ----- COLOR BUTTON ----- */
+.link-button.button-color {
+	background-color: #f45245;
+}
+/* =============== TYPOGRAPHY - TABLE STYLES =============== */
+/* ----- COLOR HEADER TABLE ----- */
+table.style-colorheader thead th {
+	background-color: #f45245;
+	border-right: 1px solid #d7463b;
+}
+table.style-colorheader thead th:first-child {
+	border-left: 1px solid #f45245;
+}
+/* ----- COLOR STRIPES TABLE ----- */
+table.style-colorstripes td,
+table.style-colorstripes th {
+	border-bottom: 1px solid #c03328;
+	border-right: 1px solid #c03328;
+}
+table.style-colorstripes thead th {
+	background-color: #d7463b;
+}
+table.style-colorstripes thead th.highlight {
+	background-color: #f45245;
+}
+table.style-colorstripes tbody tr {
+	background-color: #f4776d;
+}
+table.style-colorstripes tbody .highlight {
+	background-color: #F8E4E4;
+}
+table.style-colorstripes tbody tr.odd {
+	background-color: #f45245;
+}
+table.style-colorstripes tbody tr.odd .highlight {
+	background-color: #F1C9C9;
+}
+table.style-colorstripes tbody tr:hover th,
+table.style-colorstripes tbody tr:hover td {
+	background-color: #d33529;
+}
+table.style-colorstripes tbody tr:hover .highlight {
+	background-color: #eb9f9f;
+}
+table.style-colorstripes tbody td,
+table.style-colorstripes tbody th {
+	border-left: none;
+	border-right: 1px solid #c03328;
+}
+table.style-colorstripes tfoot th,
+table.style-colorstripes tfoot td {
+	background-color: #d7463b;
+}
+.sectiontableheader {
+	background-color: #f45245;
+}
+/* ----- GREY STRIPES TABLE ----- */
+table.style-greystripes thead th.highlight {
+	background-color: #f45245;
+}
+/* ============================== MODULE STYLES ============================== */
+/* =============== MODULE STYLES - MODULE BOXES =============== */
+/* ----- SOLID STYLE ----- */
+div.solid-1 div.jsn-modulecontainer_inner {
+	background: #f45245;
+}
+/* ----- RICHBOX STYLE ----- */
+div.richbox-1 h3.jsn-moduletitle{
+	color: #f45245 !important;
+}
+div.solid-1 div.jsn-modulecontainer_inner {
+	background: #65759B;
+}
+div.solid-1 div.jsn-modulecontent ul.menu-sidemenu ul li:hover > a,
+div.solid-1 div.jsn-modulecontent ul.menu-treemenu li a {
+	color: #fff !important;
+}
+div.richbox-2 h3.jsn-moduletitle{
+	color: #353535 !important;
+	background: #f5f5f5;
+}
+/* ========== DISPLAY INLINE/DROP DOWN MODULE ========== */
+.jsn-modulecontainer[class*="display-"] form .search input.inputbox:focus + [class*="jsn-icon"] {
+	color: #f45245;
+}
+/* ============================== SIDE-MENU/TREE MENU/TOP MENU STYLES ============================== */
+/* ----- HOVER/ACTIVE STATE ----- */
+#jsn-menu ul.menu-mainmenu > li > a span.jsn-menutitle{
+	color: #fff !important;
+}
+div.jsn-modulecontainer ul.menu-mainmenu > li.active > a{
+	  background-image: -webkit-linear-gradient(bottom, #f45245 0%, #db4a3e 100%);
+}
+div.jsn-modulecontainer ul.menu-topmenu.menu-iconmenu > li:hover > a {
+	background: #f45245;
+}
+div.jsn-modulecontainer ul.menu-sidemenu li:hover > a,
+div.jsn-modulecontainer ul.menu-sidemenu li.active > a{
+	color: #f45245;
+	padding-left: 8px;
+}
+div.jsn-modulecontainer ul.menu-sidemenu ul li.parent.active > a,
+div.jsn-modulecontainer ul.menu-sidemenu ul li:hover > a {
+	padding-left: 8px;
+	color: #f45245;
+}
+.jsn-direction-rtl div.jsn-modulecontainer ul.menu-sidemenu ul li.parent.active > a,
+.jsn-direction-rtl div.jsn-modulecontainer ul.menu-sidemenu ul li:hover > a {
+	padding-right: 8px;
+}
+/* =============== LAYOUT - CONTENT BOTTOM MID/BELOW AREA =============== */
+#jsn-content-bottom-mid{
+	background: #f45245;
+}
+/* ============================== JOOMLA! DEFAULT EXTENSIONS ============================== */
